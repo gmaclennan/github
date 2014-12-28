@@ -418,10 +418,6 @@
           if (err) return cb(err);
           var data = {
             "message": message,
-            "author": {
-              "name": options.user,
-              "email": userData.email
-            },
             "parents": [
               parent
             ],
